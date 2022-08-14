@@ -1,3 +1,61 @@
+
+
 body{
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+    border: red 1px solid;
+
+}
+
+#a{
+    border: black 1px solid;
+    padding: 10px;
+}
+
+
+#header{
     /* background-color: green; */
+    text-align: center;
+
+    border: 1px solid green;
+    font-size: 30px;
+}
+
+.menu{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: blue 1px solid;
+}
+
+.center{
+    justify-content: space-around;
+}
+
+
+/* links */
+.center a{
+    text-decoration: none;
+    color: black;
+}
+.center a:hover{
+    color: rgb(255, 0, 0);
+}
+
+
+
+/* website by */
+#footer{
+    text-align: center;
+    border: 1px solid blue;
+    /* stick footer to bopttom of the page */
+    position: fixed;
+    bottom: 0;
+    /* width: 100%;     */
+    right: 20px;
+
 }
