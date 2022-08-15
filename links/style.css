@@ -7,12 +7,16 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 
-    border: red 1px solid;
+    /* border: red 1px solid; */
 
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
 #a{
-    border: black 1px solid;
+    /* border: black 1px solid; */
     padding: 10px;
 }
 
@@ -21,41 +25,52 @@ body{
     /* background-color: green; */
     text-align: center;
 
-    border: 1px solid green;
+    /* border: 1px solid green; */
     font-size: 30px;
 }
 
 .menu{
     display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
-    border: blue 1px solid;
+    margin-left: 30%;
+    margin-right: 30%;
+    /* border: blue 1px solid; */
 }
 
 .center{
     justify-content: space-around;
+    justify-content: space-between
 }
 
-
-/* links */
-.center a{
+.menu a{
     text-decoration: none;
     color: black;
 }
-.center a:hover{
-    color: rgb(255, 0, 0);
+
+.menu a:hover{
+    text-decoration: none;
+    color: red;
 }
 
 
 
-/* website by */
+.link:hover{
+    cursor: pointer;
+    color: red;
+}
+
+#container{
+
+    align-items: center;
+    /* border: 1px solid blue; */
+    margin: 50px;
+}
+
+/* footer */
 #footer{
     text-align: center;
-    border: 1px solid blue;
-    /* stick footer to bopttom of the page */
+    /* border: 1px solid blue; */
     position: fixed;
     bottom: 0;
-    /* width: 100%;     */
     right: 20px;
 
 }
