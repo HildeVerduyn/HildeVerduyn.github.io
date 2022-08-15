@@ -24,6 +24,7 @@ body{
 #header{
     /* background-color: green; */
     text-align: center;
+    
 
     /* border: 1px solid green; */
     font-size: 30px;
@@ -64,6 +65,14 @@ body{
     /* border: 1px solid blue; */
     margin: 50px;
 }
+
+.breaking_image{
+    max-width:100%;
+    max-height:100%;
+}
+
+
+
 
 /* footer */
 #footer{
