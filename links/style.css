@@ -66,9 +66,20 @@ body{
     margin: 50px;
 }
 
+.breaking{
+    border: 1px solid blue;
+}
+.breaking_text{
+    border: 1px solid purple;
+    text-align: center;
+    font-size: 30px;
+}
+
 .breaking_image{
-    max-width:100%;
-    max-height:100%;
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+    border: 1px solid red;
 }
 
 
